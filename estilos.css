@@ -36,10 +36,14 @@
     color: #C69DD1;
 }
 
-.icons img {
+.icon {
     width: 2em;
+    display: inline-block;
+}
 
-    margin-right: 28px;
+.separador {
+    width: 28px;
+    display: inline-block;
 }
 
 @media (max-width: 576px) {
