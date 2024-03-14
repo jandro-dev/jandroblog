@@ -26,8 +26,6 @@
     background-color: #410753;
 }
 
-
-
 .color1 {
     color: #F4CCFE;
 }
@@ -42,7 +40,7 @@
 }
 
 .imagen-tarjeta {
-    width: 3em;
+    width: 5vh;
     height: auto;
 }
 
@@ -79,5 +77,4 @@
     .row {
         flex-direction: column;   
     }
-
 }
