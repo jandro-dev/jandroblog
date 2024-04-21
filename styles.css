@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     font-family: "K2D";
+    scrollbar-width: thin;
+    scrollbar-color: #410753 #2D0C37;
 }
 
 @font-face {
@@ -11,7 +13,16 @@
     font-style: normal;
 }
 
-.image-profile {
+a {
+    text-decoration: none !important;
+}
+
+img {
+    pointer-events: none;
+    user-select: none;
+}
+
+.fotoPerfil {
     width: 100%;
     max-width: 150px;
     border-radius: 50%;
@@ -34,31 +45,37 @@
     color: #C69DD1;
 }
 
-.icon {
+.icon, .separador {
     width: 2em;
     display: inline-block;
 }
 
-.imagen-tarjeta {
-    width: 5vh;
-    height: auto;
+.tituloCategoria {
+    margin-bottom: 1em;
 }
 
-.titulo-tarjeta {
-    font-size: 24px; 
+.imagenTarjeta {
+    width: 2.5em;
+}
+
+.tituloTarjeta {
+    font-size: 1.5em; 
     margin-bottom: 0;
 }
 
-.subtitulo-tarjeta { 
+.subtituloTarjeta { 
     margin-top: 0;
 }
 
-.boton-tarjeta {
+.separacionTarjeta {
+    margin-top: 1.5em;
+}
+
+.tarjeta {
     display: inline-block;
     padding: 1px 10px;
     background-color: #410753;
     color: white;
-    text-decoration: none;
     border: 2px solid #F4CCFE;
     border-radius: 20px;
 }
@@ -66,19 +83,4 @@
 .boton-tarjeta:hover {
     background-color: #C69DD1;
     border-color: #ffffff;
-}
-
-.separador {
-    width: 28px;
-    display: inline-block;
-}
-
-
-@media (max-width: 576px) {
-    .icon img {
-        max-width: 20px; 
-    }
-    .separador {
-        width: 0px;  
-    }
 }
