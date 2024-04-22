@@ -80,7 +80,7 @@ img {
     border-radius: 20px;
 }
 
-.boton-tarjeta:hover {
+.tarjeta:hover {
     background-color: #C69DD1;
     border-color: #ffffff;
 }
